@@ -1,5 +1,7 @@
+/* index.css */
+
 body {
-    font-family: 'Raleway', serif;
+  font-family: 'Raleway', serif;
   text-align: center;
   background-color: #f0f0f0;
   margin: 0;
@@ -40,26 +42,25 @@ button:hover {
 }
 
 /* Certificate Modal */
-
 .modal {
-    max-width: 800px;
-    margin: 0 auto; /* Center horizontally */
-    position: fixed;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Center both vertically and horizontally */
-    z-index: 1;
-  }
-  
-  .modal-content {
-    background-color: #fff;
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    position: relative;
-    border: 3px solid #659f8f;
-  }
-  
+  max-width: 800px;
+  margin: 0 auto; /* Center horizontally */
+  position: fixed;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center both vertically and horizontally */
+  z-index: 1;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+  border: 3px solid #659f8f;
+  text-align: center;
+}
 
 .modal-content::before {
   content: "";
@@ -88,28 +89,32 @@ button:hover {
   border: 2px solid #dc7f5f;
   border-radius: 10px;
   margin: 20px 0;
+  position: relative;
 }
 
-h1, .modal-content h2, .modal-content p {
-  color: #5d5f5e;
+#certificateContent img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+p {
+  margin: 10px 0;
 }
 
 .close {
   color: #dc7f5f;
+  cursor: pointer;
 }
-
-/* Adding a fancy border to the certificate content */
-#certificateContent {
-  background: #f9f9f9 url('path/to/your/decorative-border-image.png') center/contain no-repeat;
-}
-
-/* Adjust button styles to fit the theme */
-button {
-  background-color: #659f8f;
-  color: #fff;
-}
-
-button:hover {
-  background-color: #5d5f5e;
-}
-
