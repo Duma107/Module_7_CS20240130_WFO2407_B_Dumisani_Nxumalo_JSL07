@@ -1,4 +1,4 @@
-Here's a template for a "Proud of My Progress" project README file. It reflects the growth and learning you've achieved through this project.
+
 
 ---
 
