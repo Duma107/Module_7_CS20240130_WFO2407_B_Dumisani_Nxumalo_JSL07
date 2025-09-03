@@ -70,4 +70,3 @@ To run this project locally:
 
 ---
 
-Feel free to modify this template as needed for your specific project and the skills you want to showcase!
